@@ -33,5 +33,34 @@
 }
 .container form input{
     width: 100%;
-    padding: 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    caret-color: #ff0084;
 }
+form .re-for{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 15px;
+}
+form .re-for .remember{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+form .re-for .remember input{
+    width: 20px;
+    margin-right: 10px;
+}
+form .re-for a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+form .re-for a:hover{
+    text-decoration: underline;
+}
+
+
+
