@@ -32,12 +32,14 @@
     
 }
 .container form input{
+    background: none;
     width: 100%;
     padding: 10px;
     outline: none;
-    border: none;
+    border: transparent;
+    border-bottom: 1px solid #f8f8f8;
     margin-bottom: 10px;
-    caret-color: #ff0084;
+    caret-color: #f8f8f8;
 }
 form .re-for{
     display: flex;
@@ -59,6 +61,34 @@ form .re-for a{
     color: #f8f8f8;
 }
 form .re-for a:hover{
+    text-decoration: underline;
+}
+form input[type='submit'] {
+    background: #f8f8f8;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+form input[type='submit']:hover{
+    background: #000000bb;
+    border: 1px solid #f8f8f8;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+form .info{
+    display: flex;
+    justify-content: center;
+}
+form .info p{
+    font-size: 15px;
+}
+form .info a{
+    text-decoration: none;
+    color: #f8f8f8;
+    margin-left: 5px;
+}
+form .info a:hover{
     text-decoration: underline;
 }
 
