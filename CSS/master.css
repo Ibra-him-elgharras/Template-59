@@ -29,7 +29,15 @@
     font-size: 30px;
     font-weight: bold;
     margin: 5px auto 10px;
-    
+}
+.container form .lab{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+.container form input:checked ~ .lab{
+    position: relative;
+    top: 0;
 }
 .container form input{
     background: none;
